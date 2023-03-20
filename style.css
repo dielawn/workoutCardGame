@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.deck .card {
+    border: solid 1px #aaa;
+    border-radius: 9px;
+    width: 95px;
+    height: 150px;
+    float:left;
+    background-color: white;
+    padding: 3px 3px 3px 3px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.deck{
+    max-width: 72vw;
+}
+  .back {
+    background-image: url(images/card-back-red.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+}
+
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.card2 {
+    width: 50px;
+    padding: 10px;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px;
+}
+
+.card .value{
+    font-size:15pt;
+    font-family: sans-serif;
+}
+
+.card .suit {
+	
+	height: 100px;
+	width: 90px;
+}
+
+.card .diamonds {
+    
+	background-position-y: 100px;
+}
+
+.card .hearts {
+	background-position-x: 90px;
+}
+
+.card .clubs {
+	background-position-x:90px;
+	background-position-y:100px;
+}
+
+.cardBack {
+    background-image: url(images/card-back-red.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    
+    align-items: center;
+}
+
+.description{
+    max-width: 400px;
+}
