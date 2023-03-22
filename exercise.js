@@ -1,14 +1,14 @@
 let specialExercises = [
     {
         'exercise': 'Push-up',
-        'description': '',
+        'description': 'Push your body up',
         'type': 'body-weight',
         'duration': 'qty',
         'img': ''
     },
     {
         'exercise': 'Pull-up',
-        'description': '',
+        'description': 'Pull your body up',
         'type': 'body-weight',
         'duration': 'qty',
         'img': ''

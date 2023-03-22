@@ -47,9 +47,6 @@ const renderDeck = (deck) => {
         let repsDiv = document.createElement('div');       
         let exerciseDiv = document.createElement('div');
        
-     
-        
-       
         card.className = 'card back'       
         repsDiv.className = 'repsValue'
         value.className = 'value'
@@ -93,7 +90,7 @@ const renderDeck = (deck) => {
                 reps = 4;
                 break;
             case '5':
-                reps = 4;
+                reps = 5;
                 break;
             case '6':
                 reps = 6;
@@ -128,7 +125,8 @@ const renderDeck = (deck) => {
             
             
         }
-        repsDiv.innerHTML = `Reps ${reps}`
+        repsDiv.innerHTML = `${reps}`
+        
         card.appendChild(repsDiv);
         
         deckDiv.appendChild(card);      
@@ -186,11 +184,12 @@ const startGame = () => {
    
     const cards = document.querySelectorAll('.card');
     let i = 0;
+    console.log(i)
     const flipNextCard = () => {
         if (i < cards.length) {
             console.log(currentExerciseArray[i].name)
             flipCard(i);
-          
+            console.log(i)
             i++;
             
             setTimeout(flipNextCard, 15000);

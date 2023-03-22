@@ -1,7 +1,16 @@
 {
 	"folders": [
 		{
+			"path": "../../../../michelle-standzel"
+		},
+		{
+			"path": "../../../.."
+		},
+		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "playingCards"
+	}
 }

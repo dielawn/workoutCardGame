@@ -3,11 +3,17 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+body{
+    background-image: url(images/cardTable.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 .deck .card {
     border: solid 1px #aaa;
     border-radius: 9px;
-    width: 95px;
-    height: 150px;
+    width: 120px;
+    height: 160px;
     float:left;
     background-color: white;
     padding: 3px 3px 3px 3px;
@@ -16,7 +22,7 @@ box-sizing: border-box;
     flex-direction: column;
 }
 .deck{
-    max-width: 72vw;
+    max-width: 96vw;
 }
   .back {
     background-image: url(images/card-back-red.png);
@@ -32,18 +38,7 @@ box-sizing: border-box;
 .black{
     color: black;
 }
-.card2 {
-    width: 50px;
-    padding: 10px;
-    border: solid 1px #808080;
-    background-color: white;
-    display: inline-block;
-    border-radius: 10px;
-    font-size: 22px;
-    text-align: center;
-    margin: 3px;
-    border:solid 3px;
-}
+
 
 .card .value{
     font-size:15pt;
@@ -79,7 +74,7 @@ box-sizing: border-box;
 .container{
     
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding-bottom: 15px;
     
     align-items: center;
@@ -87,4 +82,15 @@ box-sizing: border-box;
 
 .description{
     max-width: 400px;
+}
+
+.repsValue {
+    font-size: 1.7rem;
+}
+.exercise {
+    font-size: 1.2rem;
+}
+#startBtn{
+    height: 30px;
+    width: 90px;
 }
